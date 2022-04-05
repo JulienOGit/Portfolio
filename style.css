@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+    background-image: url(G:\Portfolio\Portfolio\Images\background.jpg);
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+/* BARRE DE NAVIGATION */
+nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    /* Permet de garder la barre de navigation en haut lorsqu'on défile sur la page */
+    position: sticky;
+    top: 0;
+    /* */
+    width: 100%;
+    height: 65px;
+}
+
+nav h2 {
+    flex-grow: 0.6  ;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left:20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    font-size: 20px;
+}  
+
+nav ul li:hover {
+    border-bottom-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list {
+    color: #fff;
+}
+
+/* BARRE DE NAVIGATION */
+
+
+/* .container {
+    margin: auto;
+    width: 400px;
+    display:flex;
+}
+
+.bio {
+    font-size:x-large;
+    text-align: center;
+} */
+
+/* HEADER */
+
+.header-page header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.header-page header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-page header p {
+    line-height: 30px;
+    color: #818181;
+}
+
+/* HEADER */
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.icone i {
+    margin: 15px;
+}
+
+/* FOOTER */
+
+/* PROJETS */
+
+
+
+.container-projects1 ul li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.container-projects1 ul li p {
+    font-size: 15px;
+}
+
+.section-projects {
+    margin-top: 6px;
+}
+
+.section-projects h2 {
+    
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+}
+
+.section-projects .container-projects1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-projects .container-projects2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75x;
+    padding-top: 150px;
+}
+
+.section-projects .container-projects .project {
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+/* PROJETS */
+
+/* PAGE 1*/
+.p-page1{
+    text-align: center;
+}
+
+/* PAGE 1*/
+
+
+/* CV */
+
+.section-cv {
+    margin-top: 6px;
+    text-align: center;
+}
+
+/* CV */
+
+/* RESPONSIVE */
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+}
+/* RESPONSIVE */
