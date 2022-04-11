@@ -1,4 +1,4 @@
-AuthUserFile github.com/JulienOGit/Portfolio/.htpasswd
+AuthUserFile https://orell.ovh/.htpasswd
 AuthType Basic
 AuthName "Veuillez vous identifier"
 Require valid-user
