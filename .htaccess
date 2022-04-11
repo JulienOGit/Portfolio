@@ -1,4 +1,4 @@
-AuthUserFile Portfolio/.htpasswd
+AuthUserFile github.com/JulienOGit/Portfolio/.htpasswd
 AuthType Basic
 AuthName "Veuillez vous identifier"
 Require valid-user
